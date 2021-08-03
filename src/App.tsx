@@ -10,9 +10,7 @@ function App() {
       <Stack horizontalAlign = "center">
         <h1>Todo App using Fluent UI & React</h1>
         <Stack style = {{ width: 300 }} gap = {25}>
-          <TodoList todos={todos} />
-          Add todo component...
-          TodoList component...
+          <TodoList todoItems={todos} />
         </Stack>
       </Stack>
     </div>

@@ -5,7 +5,7 @@ function TodoItem(props: any) {
     return (
         <Stack>
             <Stack horizontal verticalAlign="center" horizontalAlign="space-between">
-                <Label>{props.todo.name}</Label>
+                <Label>{props.todoItems.name}</Label>
             </Stack>
         </Stack>
     )
